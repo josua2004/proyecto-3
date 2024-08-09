@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(/src/img/fondo-de-pantalla-paisaje.jpg)  ;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+   
+
+}
+
+.bordes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    box-shadow: 0 0 10 white;
+
+    
+   
+    
+
+}
+
+.celdas{
+    
+    width: 30%;
+    height: 100px;
+    border: 3px solid rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    box-shadow: white;
+    
+}
+
+.gatito{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.lobo{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    
+}
+
+.buton{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton22{
+    color: rgb(0, 102, 255);
+}
